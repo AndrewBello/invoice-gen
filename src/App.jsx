@@ -36,8 +36,8 @@ const companies = {
     logo: gsslLogo,
     account: {
       name: "Global Sights Services Ltd",
-      number: "2022334455",
-      bank: "Access Bank",
+      number: "0025927051",
+      bank: "Stanbic IBTC",
     },
     footer: {
       locations: [
