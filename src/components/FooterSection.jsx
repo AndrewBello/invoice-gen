@@ -2,7 +2,10 @@ import React from "react";
 
 export default function FooterSection({ company }) {
   return (
-    <div className="absolute bottom-6 left-0 right-0 text-center text-xs text-blue-900 border-t-4 border-blue-900 pt-2">
+    <div
+      className="absolute bottom-6 left-0 right-0 text-center text-xs border-t-4 pt-2"
+      style={{ borderColor: "#1e3a8a", color: "#1e3a8a" }}
+    >
       <p className="font-bold">{company.name}</p>
       {company.footer.locations.map((loc, i) => (
         <p key={i}>

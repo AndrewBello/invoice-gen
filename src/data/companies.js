@@ -1,7 +1,7 @@
 import gsslLogo from "../assets/gssl-logo.jpg";
 import innovativeLogo from "../assets/innovative-logo.png";
 
-const companies = {
+export const companies = {
   innovative: {
     name: "INNOVATIVE MULTI CONCEPT",
     logo: innovativeLogo,
@@ -91,5 +91,3 @@ const companies = {
     },
   },
 };
-
-export default companies;

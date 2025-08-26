@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ItemTable({ items, removeItem, total }) {
+export default function ItemTable({ items, removeItem, getTotal }) {
   return (
     <table className="w-full border-collapse mb-6 text-sm">
       <thead>
@@ -28,7 +28,8 @@ export default function ItemTable({ items, removeItem, total }) {
             <td className="border p-2 text-center no-pdf">
               <button
                 onClick={() => removeItem(i)}
-                className="px-2 py-1 rounded bg-red-600 text-white"
+                className="px-2 py-1 rounded text-white"
+                style={{ backgroundColor: "#dc2626" }}
               >
                 Remove
               </button>
@@ -41,7 +42,7 @@ export default function ItemTable({ items, removeItem, total }) {
           <td colSpan="4" className="border p-2 text-right">
             TOTAL
           </td>
-          <td className="border p-2">₦{total.toLocaleString()}</td>
+          <td className="border p-2">₦{getTotal().toLocaleString()}</td>
           <td className="border p-2 no-pdf"></td>
         </tr>
       </tfoot>
