@@ -85,6 +85,8 @@ export default function App() {
               <option value="innovative">Innovative Multiconcepts</option>
               <option value="gssl">Global Sights Services Limited</option>
               <option value="techeye">Tech Eye Limited</option>
+              <option value="innovativeLTP">
+                Innovative Logistics and Transportation Limited </option>
             </select>
           </div>
 

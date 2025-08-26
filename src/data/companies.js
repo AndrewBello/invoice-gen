@@ -39,7 +39,7 @@ export const companies = {
     account: {
       name: "Global Sights Services Ltd",
       number: "0025927051",
-      bank: "Stanbic IBTC",
+      bank: "Stanbic IBTC Bank",
     },
     footer: {
       locations: [
@@ -88,6 +88,37 @@ export const companies = {
       tel: "08023033816, 08034114760",
       email: "support@techeye.com",
       web: "www.techeye.com",
+    },
+  },
+  innovativeLTP: {
+    name: "INNOVATIVE LOGISTICS AND TRANSPORTATION LIMITED",
+    logo: innovativeLogo,
+    account: {
+      name: "Innovative Logistics and Transportation Limited",
+      number: "0024991082",
+      bank: "Stanbic IBTC Bank",
+    },
+    footer: {
+      locations: [
+        {
+          label: "LAGOS",
+          value:
+            "3B Tunde Gabby Street, Behind County Hospital, Ogba Aguda, Lagos, Nigeria.",
+        },
+        {
+          label: "ABUJA",
+          value:
+            "Suite 15 & 16, ZM Plaza, Ahmedu Bello Way, Area 11, Garki, Abuja, Nigeria.",
+        },
+        {
+          label: "KANO",
+          value:
+            "Suite 63/54, Yayo GSM Plaza, Farm Center Market, Off Zaira Road, Kano, Nigeria.",
+        },
+      ],
+      tel: "08023033816, 08034114760",
+      email: "innovativemulticoncepts@gmail.com",
+      web: "www.innovativegroupsng.com",
     },
   },
 };
