@@ -19,11 +19,18 @@ const companies = {
       locations: [
         {
           label: "LAGOS",
-          value: "3, Abiodun Jagun Street, Ogba-Ikeja, Lagos.",
+          value:
+            "3B Tunde Gabby Street, Behind County Hospital, Ogba Aguda, Lagos, Nigeria.",
         },
         {
           label: "ABUJA",
-          value: "Suite 15, ZM Plaza Ahmadu Bello Way, Area 11 Garki, Abuja.",
+          value:
+            "Suite 15 & 16, ZM Plaza, Ahmedu Bello Way, Area 11, Garki, Abuja, Nigeria.",
+        },
+        {
+          label: "KANO",
+          value:
+            " Suite 63/54, Yayo GSM Plaza, Farm Center Market, Off Zaira Road, Kano, Nigeria.",
         },
       ],
       tel: "08023033816, 08034114760",
@@ -41,10 +48,23 @@ const companies = {
     },
     footer: {
       locations: [
-        { label: "LAGOS", value: "12, Victoria Island, Lagos." },
-        { label: "ABUJA", value: "Suite 21, CBD Towers, Abuja." },
+        {
+          label: "LAGOS",
+          value:
+            "3B Tunde Gabby Street, Behind County Hospital, Ogba Aguda, Lagos, Nigeria.",
+        },
+        {
+          label: "ABUJA",
+          value:
+            "Suite 15 & 16, ZM Plaza, Ahmedu Bello Way, Area 11, Garki, Abuja, Nigeria.",
+        },
+        {
+          label: "KANO",
+          value:
+            " Suite 63/54, Yayo GSM Plaza, Farm Center Market, Off Zaira Road, Kano, Nigeria.",
+        },
       ],
-      tel: "08020001122, 08023334455",
+      tel: "08023033816, 08034114760",
       email: "info@gssl.com",
       web: "www.gssl.com",
     },
@@ -59,10 +79,23 @@ const companies = {
     },
     footer: {
       locations: [
-        { label: "LAGOS", value: "22, Computer Village, Ikeja, Lagos." },
-        { label: "KANO", value: "Suite 10, Tech Park, Kano." },
+        {
+          label: "LAGOS",
+          value:
+            "3B Tunde Gabby Street, Behind County Hospital, Ogba Aguda, Lagos, Nigeria.",
+        },
+        {
+          label: "ABUJA",
+          value:
+            "Suite 15 & 16, ZM Plaza, Ahmedu Bello Way, Area 11, Garki, Abuja, Nigeria.",
+        },
+        {
+          label: "KANO",
+          value:
+            " Suite 63/54, Yayo GSM Plaza, Farm Center Market, Off Zaira Road, Kano, Nigeria.",
+        },
       ],
-      tel: "08055556677, 08066667788",
+      tel: "08023033816, 08034114760",
       email: "support@techeye.com",
       web: "www.techeye.com",
     },
